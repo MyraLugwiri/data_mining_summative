@@ -4,7 +4,8 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
 # # Load the saved model
-model = joblib.load("bank_account_prediction_model.pkl")
+model = joblib.load("compressed_bank_account_prediction_model.pkl")
+
 
 # Load the encoder
 encoder = joblib.load("encoder.pkl")
